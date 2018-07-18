@@ -1,0 +1,23 @@
+{
+  "Login":"Login",
+  "Logout":"Logout",
+  "Home":"Home",
+  "Username":"Username",
+  "Password":"Password",
+  "promptTitle":"Application URL",
+  "promptMessage":"Enter the name of instance. Do not enter complete URL",
+  "url":"url",
+  "cancel":"Cancel",
+  "save":"Save",
+  "passwordDoesNotMatch":"Password Does not match",
+  "AllFieldsRequired":"All fields are required",
+  "loadingMsg":"Logging In...",
+  "tenantUrlRequired":"Please Enter Application URL before logging in",
+  "welcome":"Login Successfully",
+  "UserProfileTitle":"User Profile",
+  "Role":"Role",
+  "ResetPassword":"Reset Password",
+  "password":"Password",
+  "Menu":"Menu",
+  "Profile":"Profile"
+}
