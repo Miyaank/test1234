@@ -23,7 +23,6 @@ export class LoginPage {
     this.loginServiceSubscription = new Subscription();
     this.test2 = this.hcService.test();
 
-    console.log("======"+this.test2);
   }
 
   login(username, password) {
@@ -73,6 +72,8 @@ export class LoginPage {
 
   ionViewWillUnload() {
     this.loginServiceSubscription.unsubscribe();
+    console.log("===$$$$$$$$$$$==="+this.test2);
+
   }
 
 }
