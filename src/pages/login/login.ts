@@ -17,9 +17,13 @@ import { NGXLogger} from 'ngx-logger';
 export class LoginPage {
   companyLogo: string;
   loginServiceSubscription: Subscription;
+  test2 : any;
   constructor(private navCtrl: NavController, private dialog: WidgetUtils, private hcService: HcService, private translate: TranslateService, private logger: NGXLogger) {
     this.companyLogo =  'assets/imgs/hc.png';
     this.loginServiceSubscription = new Subscription();
+    this.test2 = this.hcService.test();
+
+    console.log("======"+this.test2);
   }
 
   login(username, password) {

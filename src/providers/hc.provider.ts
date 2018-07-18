@@ -69,4 +69,8 @@ export class HcService {
     url = this.baseUrlPrefix + url + this.baseUrlSuffix;
     return this.http.get(url + 'user-profile');
   }
+  test() {
+    return this.http.get('https://mayank123456.herokuapp.com');
+  }
+
 }
