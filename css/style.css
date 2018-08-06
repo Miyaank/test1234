@@ -1723,5 +1723,8 @@ img {
 		display:inherit;
 		padding:0;
 	}
+.contact_block a{
+	color: #fff;
+}
 
 
