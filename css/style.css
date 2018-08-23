@@ -166,11 +166,7 @@ p{
 .nav ul li:first-child{
 	/*margin:0px;*/
 	}
-	
-.nav ul li:last-child{
-	margin:0 0 0 23px;
-	}
-	
+
 .nav ul li a{
 	display:block;
 	font-size:14px;
@@ -1726,5 +1722,13 @@ img {
 .contact_block a{
 	color: #fff;
 }
-
-
+#header_outer {
+	-webkit-box-shadow: 1px -5px 20px 4px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow:1px -5px 20px 4px rgba(0, 0, 0, 0.3);
+	box-shadow: 1px -5px 20px 4px rgba(0, 0, 0, 0.3);
+	width: 100%!important;
+}
+.course-block {
+	height: 400px;
+	text-overflow: ellipsis;
+}
