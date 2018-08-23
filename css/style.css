@@ -1740,4 +1740,16 @@ img {
 	margin: 20px;
 	background-color: white;
 	box-shadow: 0 10px 10px -8px rgba(0, 0, 0, 0.075), 0 12px 20px -8px rgba(0, 0, 0, 0.075), 0 15px 20px -8px rgba(0, 0, 0, 0.05), 0 0 10px 2px rgba(0, 0, 0, 0.025);
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
 }
+
+.service_block:hover{
+	transform: scale(1.1,1.1);
+	cursor: pointer;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
