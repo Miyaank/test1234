@@ -128,7 +128,7 @@
 	
 	toggle.ul{ background:#fff; width:100%;}
 	.nav ul li{ border-bottom:1px solid #CCC; display:block; float:none; width:100%; margin:0px; text-align:center;}
-	.nav ul li a{ padding:6px 0px}
+	.nav ul li a{ padding:6px 0px; color: #000;}
 	.res-nav_click{ 
 		bottom: -42px;
 		display: block;

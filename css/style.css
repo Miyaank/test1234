@@ -976,7 +976,7 @@ img {
 .contact_block span a{
 	display:block;
 	font-size:16px;
-	color:#ffffff;
+	color:#ffffff!important;
 	line-height:20px;
 	}
 
