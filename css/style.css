@@ -184,7 +184,15 @@ p{
 	}
 	
 
-	
+	.modal .label {
+		height: 25px;
+		line-height: 25px;
+		display: inline-block;
+	margin-bottom: 10px;
+	}
+	.modal   blockquote{  margin-top: 20px;
+background: #f7f7f7;}
+
 
 /* Top_content
 ---------------------------------*/
