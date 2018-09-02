@@ -124,7 +124,7 @@
 	
 	.portfolioContainer { max-width:350px; margin:0px auto;}
 	.logo{ margin:0px auto 10px; float:none; }
-	.nav{ float:none; position:absolute; width:100%; top: 60px;}
+	.nav{ float:none; position:absolute; width:100%; top: 60px; z-index: 500;}
 	
 	toggle.ul{ background:#fff; width:100%;}
 	.nav ul li{ border-bottom:1px solid #CCC; display:block; float:none; width:100%; margin:0px; text-align:center;}
