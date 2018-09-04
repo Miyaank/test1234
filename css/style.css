@@ -204,16 +204,16 @@ background: #f7f7f7;}
 .top_cont_outer{
 	background:#f9f9f9;
 	position:relative;
-	}
-	
-	.top_cont_inner {
-		background: url(../img/testing.jpg) no-repeat right;
-		background-size: 40%;
-	}
+}
+
+.top_cont_inner {
+	background: url(../img/testing.jpg) no-repeat right;
+	background-size: 40%;
+	margin-right:40px;
+}
 	
 .top_content{
 	position:relative;
-	padding-top: 50px;
 	}
 	
 .white_pad{
