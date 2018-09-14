@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, maximum-scale=1">
 	<title>Homepage</title>
 	<link rel="icon" href="favicon.png" type="image/png">
-	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 	<link href="css/linecons.css" rel="stylesheet" type="text/css">
 	<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
@@ -30,6 +30,7 @@
 	<script type="text/javascript" src="js/jquery.isotope.js"></script>
 	<script type="text/javascript" src="js/wow.js"></script>
 	<script type="text/javascript" src="js/classie.js"></script>
+	<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 	<script type="text/javascript">
       $(document).ready(function(e) {
@@ -415,41 +416,72 @@
 <section class="main-section" id="client_outer">
 	<!--main-section client-part-start-->
 	<h2>Testimonials</h2>
-	<div class="client_area ">
-		<div class="client_section animated  fadeInUp wow">
-			<div class="client_profile">
-				<div class="client_profile_pic"><img src="img/client-pic1.png" alt=""></div>
-				<h3>Parag Acharya</h3>
-				<span>Happy Student</span> </div>
-			<div class="quote_section">
-				<div class="quote_arrow"></div>
-				<p><b><img src="img/quote_sign_left.png" alt=""></b>It was a great experience to learn with VM Tech.Their interactive sessions and real life examples made me understand the logics easily. <small><img src="img/quote_sign_right.png" alt=""></small>						</p>
+	
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+			  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			</ol>
+		  
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+			  <div class="item active">
+				<div class="client_area">	
+				<div class="client_section animated  fadeInUp wow">
+							<div class="client_profile">
+								<div class="client_profile_pic"><img src="img/client-pic1.png" alt=""></div>
+								<h3>Parag Acharya</h3>
+								<span>Happy Student</span> </div>
+							<div class="quote_section">
+								<div class="quote_arrow"></div>
+								<p><b><img src="img/quote_sign_left.png" alt=""></b>It was a great experience to learn with VM Tech.Their interactive sessions and real life examples made me understand the logics easily. <small><img src="img/quote_sign_right.png" alt=""></small>						</p>
+							</div>
+							<div class="clear"></div>
+						</div>
+						<div class="client_section animated  fadeInDown wow">
+							<div class="client_profile flt">
+								<div class="client_profile_pic"><img src="img/client-pic2.png" alt=""></div>
+								<h3>Komal Shrivastava</h3>
+								<span>Happy Student</span> </div>
+							<div class="quote_section flt">
+								<div class="quote_arrow2"></div>
+								<p><b><img src="img/quote_sign_left.png" alt=""></b> Real,Excellent and Incredible piece of work. Great Learning, Thanks VM for your help and Tutorials. <small><img src="img/quote_sign_right.png" alt=""></small>						</p>
+							</div>
+							<div class="clear"></div>
+						</div>
+					</div>
 			</div>
-			<div class="clear"></div>
-		</div>
-		<div class="client_section animated  fadeInDown wow">
-			<div class="client_profile flt">
-				<div class="client_profile_pic"><img src="img/client-pic2.png" alt=""></div>
-				<h3>Komal Shrivastava</h3>
-				<span>Happy Student</span> </div>
-			<div class="quote_section flt">
-				<div class="quote_arrow2"></div>
-				<p><b><img src="img/quote_sign_left.png" alt=""></b> Real,Excellent and Incredible piece of work. Great Learning, Thanks VM for your help and Tutorials. <small><img src="img/quote_sign_right.png" alt=""></small>						</p>
+			  <div class="item">
+					<div class="client_area">	
+
+					<div class="client_section animated  fadeInUp wow">
+							<div class="client_profile">
+								<div class="client_profile_pic"><img src="img/client-pic3.png" alt=""></div>
+								<h3>Rajesh Sharma</h3>
+								<span>Happy Parent</span> </div>
+							<div class="quote_section">
+								<div class="quote_arrow"></div>
+								<p><b><img src="img/quote_sign_left.png" alt=""></b>Sending my daughter to VM was an important step in her career growth.<small><img src="img/quote_sign_right.png" alt=""></small>						</p>
+							</div>
+							<div class="clear"></div>
+						</div>
+						</div>
+			  </div>
 			</div>
-			<div class="clear"></div>
-		</div>
-		<div class="client_section animated  fadeInUp wow">
-			<div class="client_profile">
-				<div class="client_profile_pic"><img src="img/client-pic3.png" alt=""></div>
-				<h3>Rajesh Sharma</h3>
-				<span>Happy Parent</span> </div>
-			<div class="quote_section">
-				<div class="quote_arrow"></div>
-				<p><b><img src="img/quote_sign_left.png" alt=""></b>Sending my daughter to VM was an important step in her career growth.<small><img src="img/quote_sign_right.png" alt=""></small>						</p>
-			</div>
-			<div class="clear"></div>
-		</div>
-	</div>
+		  
+			<!-- Controls -->
+			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			  <span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			  <span class="sr-only">Next</span>
+			</a>
+		  </div>
+
 </section>
 <!--main-section client-part-end-->
 
