@@ -32,7 +32,27 @@
 	<script type="text/javascript" src="js/classie.js"></script>
 
 	<script type="text/javascript">
-      $(document).ready(function(e) {
+     
+	 window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
+	  $(document).ready(function(e) {
+
+
+$('#myBtn').css({position: 'fixed', bottom: '20px', right: '20px', zIndex: '2000'}).hide();
           $('.res-nav_click').click(function() {
               $('ul.toggle').slideToggle(600)
           });
@@ -63,6 +83,7 @@
 </head>
 
 <body>
+	<button onclick="topFunction()" id="myBtn" title="Go to top" class="btn btn-primary">Go to top <i class="fa fa-arrow-up"></i> </button>
 
 <!--Header_section-->
 <header id="header_outer">

@@ -32,7 +32,25 @@
   <script type="text/javascript" src="../js/classie.js"></script>
 
   <script type="text/javascript">
+  	 window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
       $(document).ready(function(e) {
+        $('#myBtn').css({position: 'fixed', bottom: '20px', right: '20px', zIndex: '2000'}).hide();
+
           $('.res-nav_click').click(function() {
               $('ul.toggle').slideToggle(600)
           });
@@ -63,6 +81,7 @@
 </head>
 
 <body>
+	<button onclick="topFunction()" id="myBtn" title="Go to top" class="btn btn-primary">Go to top <i class="fa fa-arrow-up"></i> </button>
 
 <!--Header_section-->
 <header id="header_outer">
@@ -123,12 +142,6 @@
                 <h4>Course Information</h4>
                      </div>
                   <div class="panel-body">
-                    <div class="row">
-                      <div class="col-lg-3">Course Price</div> <div class="col-lg-2"><span class="label label-success">Rs 6000</span></div>
-                    </div>
-                    <div class="row">
-                      <div class="col-lg-3">Place</div><div class="col-lg-2"><span class="label label-info">Bansi Trade Center , Indore</span></div>
-                    </div>
                     <div class="row">
                       <div class="col-lg-3">Course Duration</div> <div class="col-lg-2"><span class="label label-warning"> 45 Days</span></div>
                     </div>
@@ -240,12 +253,6 @@
                        </div>
                     <div class="panel-body">
 
-                <div class="row">
-                    <div class="col-lg-3">Course Price</div> <div class="col-lg-2"><span class="label label-success">Rs 8000</span></div>
-                  </div>
-                  <div class="row">
-                    <div class="col-lg-3">Place</div><div class="col-lg-2"><span class="label label-info">Bansi Trade Center , Indore</span></div>
-                  </div>
                   <div class="row">
                     <div class="col-lg-3">Course Duration</div> <div class="col-lg-2"><span class="label label-warning"> 2 Months</span></div>
                   </div>
@@ -355,12 +362,6 @@
 
             </div>
             <div class="panel-body">
-        <div class="row">
-            <div class="col-lg-3">Course Price</div> <div class="col-lg-2"><span class="label label-success">Rs 5000</span></div>
-          </div>
-          <div class="row">
-            <div class="col-lg-3">Place</div><div class="col-lg-2"><span class="label label-info">Bansi Trade Center , Indore</span></div>
-          </div>
           <div class="row">
             <div class="col-lg-3">Course Duration</div> <div class="col-lg-2"><span class="label label-warning"> 1 Month</span></div>
           </div>
