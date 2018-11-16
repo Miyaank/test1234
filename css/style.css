@@ -616,8 +616,8 @@ img {
 	border-radius:50%;
 	border:2px solid #f5f5f5;
 	margin:0 0 15px 0;
-	width:220px;
-	height:220px;
+	width:180px;
+	height:180px;
 	}
 	
 .client_profile_pic img{
@@ -656,7 +656,7 @@ img {
 	font-style: italic;
 	font-size:18px;
 	font-weight: 300;
-	color:#888888;
+	color:#484848;
 	text-align:center;
 	position:relative;
 	
