@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, maximum-scale=1">
 	<title>Homepage</title>
 	<link rel="icon" href="favicon.png" type="image/png">
-	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 	<link href="css/linecons.css" rel="stylesheet" type="text/css">
 	<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
@@ -30,6 +30,7 @@
 	<script type="text/javascript" src="js/jquery.isotope.js"></script>
 	<script type="text/javascript" src="js/wow.js"></script>
 	<script type="text/javascript" src="js/classie.js"></script>
+	<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 	<script type="text/javascript">
      
@@ -154,21 +155,21 @@ $('#myBtn').css({position: 'fixed', bottom: '20px', right: '20px', zIndex: '2000
 			<div class="row">
 				<div class="col-lg-4 course-block">
 					<div class="service_block">
-						<div class="service_icon delay-03s animated wow  zoomIn"> <span><i class="fa-flash"></i></span> </div>
+						<div class="service_icon delay-03s animated wow  zoomIn"> <span><i class="fa fa-flash"></i></span> </div>
 						<h3 class="animated fadeInUp wow">Organized Syllabus </h3>
 						<p class="animated fadeInDown wow">We came up with a unique list of topics that will help you gradually work your way into the testing world. It includes the traditional testing methodologies as well as a glimpse of the ways of testing that are coming up.</p>
 					</div>
 				</div>
 				<div class="col-lg-4 course-block">
 					<div class="service_block">
-						<div class="service_icon icon2  delay-03s animated wow zoomIn"> <span><i class="fa-comments"></i></span> </div>
+						<div class="service_icon icon2  delay-03s animated wow zoomIn"> <span><i class="fa fa-comments"></i></span> </div>
 						<h3 class="animated fadeInUp wow">Expert Teachers</h3>
 						<p class="animated fadeInDown wow">We have experienced faculty with 7+ years of industry experience. We have a unique way of teaching to you. Our Team is going to be available to you via email or the website for you to reach out to us.</p>
 					</div>
 				</div>
 				<div class="col-lg-4 course-block">
 					<div class="service_block">
-						<div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><i class="fa-shield"></i></span> </div>
+						<div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><i class="fa fa-shield"></i></span> </div>
 						<h3 class="animated fadeInUp wow">Best Classrooms</h3>
 						<p class="animated fadeInDown wow">It is going to be completely interactive. Our aim is to make each class feel like a brainstorming session.With each topic, we will give you assignments in a way that you will get to apply the theory you learnt immediately.</p>
 					</div>
@@ -436,41 +437,72 @@ $('#myBtn').css({position: 'fixed', bottom: '20px', right: '20px', zIndex: '2000
 <section class="main-section" id="client_outer">
 	<!--main-section client-part-start-->
 	<h2>Testimonials</h2>
-	<div class="client_area ">
-		<div class="client_section animated  fadeInUp wow">
-			<div class="client_profile">
-				<div class="client_profile_pic"><img src="img/client-pic1.png" alt=""></div>
-				<h3>Parag Acharya</h3>
-				<span>Happy Student</span> </div>
-			<div class="quote_section">
-				<div class="quote_arrow"></div>
-				<p><b><img src="img/quote_sign_left.png" alt=""></b>It was a great experience to learn with VM Tech.Their interactive sessions and real life examples made me understand the logics easily. <small><img src="img/quote_sign_right.png" alt=""></small>						</p>
+	
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+			  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			</ol>
+		  
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+			  <div class="item active">
+				<div class="client_area">	
+				<div class="client_section animated  fadeInUp wow">
+							<div class="client_profile">
+								<div class="client_profile_pic"><img src="img/client-pic1.png" alt=""></div>
+								<h3>Parag Acharya</h3>
+								<span>Happy Student</span> </div>
+							<div class="quote_section">
+								<div class="quote_arrow"></div>
+								<p><b><img src="img/quote_sign_left.png" alt=""></b>It was a great experience to learn with VM Tech.Their interactive sessions and real life examples made me understand the logics easily. <small><img src="img/quote_sign_right.png" alt=""></small>						</p>
+							</div>
+							<div class="clear"></div>
+						</div>
+						<div class="client_section animated  fadeInDown wow">
+							<div class="client_profile flt">
+								<div class="client_profile_pic"><img src="img/client-pic2.png" alt=""></div>
+								<h3>Komal Shrivastava</h3>
+								<span>Happy Student</span> </div>
+							<div class="quote_section flt">
+								<div class="quote_arrow2"></div>
+								<p><b><img src="img/quote_sign_left.png" alt=""></b> Real,Excellent and Incredible piece of work. Great Learning, Thanks VM for your help and Tutorials. <small><img src="img/quote_sign_right.png" alt=""></small>						</p>
+							</div>
+							<div class="clear"></div>
+						</div>
+					</div>
 			</div>
-			<div class="clear"></div>
-		</div>
-		<div class="client_section animated  fadeInDown wow">
-			<div class="client_profile flt">
-				<div class="client_profile_pic"><img src="img/client-pic2.png" alt=""></div>
-				<h3>Komal Shrivastava</h3>
-				<span>Happy Student</span> </div>
-			<div class="quote_section flt">
-				<div class="quote_arrow2"></div>
-				<p><b><img src="img/quote_sign_left.png" alt=""></b> Real,Excellent and Incredible piece of work. Great Learning, Thanks VM for your help and Tutorials. <small><img src="img/quote_sign_right.png" alt=""></small>						</p>
+			  <div class="item">
+					<div class="client_area">	
+
+					<div class="client_section animated  fadeInUp wow">
+							<div class="client_profile">
+								<div class="client_profile_pic"><img src="img/client-pic3.png" alt=""></div>
+								<h3>Rajesh Sharma</h3>
+								<span>Happy Parent</span> </div>
+							<div class="quote_section">
+								<div class="quote_arrow"></div>
+								<p><b><img src="img/quote_sign_left.png" alt=""></b>Sending my daughter to VM was an important step in her career growth.<small><img src="img/quote_sign_right.png" alt=""></small>						</p>
+							</div>
+							<div class="clear"></div>
+						</div>
+						</div>
+			  </div>
 			</div>
-			<div class="clear"></div>
-		</div>
-		<div class="client_section animated  fadeInUp wow">
-			<div class="client_profile">
-				<div class="client_profile_pic"><img src="img/client-pic3.png" alt=""></div>
-				<h3>Rajesh Sharma</h3>
-				<span>Happy Parent</span> </div>
-			<div class="quote_section">
-				<div class="quote_arrow"></div>
-				<p><b><img src="img/quote_sign_left.png" alt=""></b>Sending my daughter to VM was an important step in her career growth.<small><img src="img/quote_sign_right.png" alt=""></small>						</p>
-			</div>
-			<div class="clear"></div>
-		</div>
-	</div>
+		  
+			<!-- Controls -->
+			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			  <span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			  <span class="sr-only">Next</span>
+			</a>
+		  </div>
+
 </section>
 <!--main-section client-part-end-->
 
@@ -553,10 +585,10 @@ UG - 46, Bansi Trade centre M.G road <br>
 			<div class="row">
 				<div class="col-lg-4">
 					<ul class="social-link">
-						<li class="twitter animated bounceIn wow delay-02s"><a href="javascript:void(0)"><i class="fa-twitter"></i></a></li>
-						<li class="facebook animated bounceIn wow delay-03s"><a href="javascript:void(0)"><i class="fa-facebook"></i></a></li>
-						<li class="fa fa-whatsapp"><a href="javascript:void(0)"><i class="fa-whatsapp"></i></a></li>
-						<li class="twitter animated bounceIn wow delay-05s"><a href="javascript:void(0)"><i class="fa-linkedin"></i></a></li>
+						<li class="twitter animated bounceIn wow delay-02s"><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
+						<li class="facebook animated bounceIn wow delay-03s"><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
+						<li class=""><a href="https://api.whatsapp.com/send?phone=919926398798"><i class="fa fa-whatsapp"></i></a></li>
+						<li class="twitter animated bounceIn wow delay-05s"><a href="javascript:void(0)"><i class="fa fa-linkedin"></i></a></li>
 					
 						
 					</ul>
@@ -576,8 +608,8 @@ UG - 46, Bansi Trade centre M.G road <br>
 				</div>
 				<div class="col-lg-4">
 						<ul class="list-unstyled contact_block">
-							<li class="animated bounceIn wow delay-02s"><span> <a class="btn" href="tel:9926398798"><i class="fa-phone fa-lg"></i> +91 9926398798</a></span></li>
-							<li class="animated bounceIn wow delay-03s"><span><a class="btn" href="mailto:hr@vmtechnocrats.com"><i class="fa-envelope fa-lg"></i> hr@vmtechnocrats.com</a></span></li>
+							<li class="animated bounceIn wow delay-02s"><span> <a class="btn" href="tel:9926398798"><i class="fa fa-phone fa-lg"></i> +91 9926398798</a></span></li>
+							<li class="animated bounceIn wow delay-03s"><span><a class="btn" href="mailto:hr@vmtechnocrats.com"><i class="fa fa-envelope fa-lg"></i> hr@vmtechnocrats.com</a></span></li>
 						</ul>
 					</div>
 
