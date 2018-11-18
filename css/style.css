@@ -1041,6 +1041,10 @@ img {
 }
 .twitter a:hover {
 	background: #55acee;
+
+}
+.whatsapp a:hover {
+    background: #21bd4a;
 }
 .facebook a:hover {
 	background: #3b5998;
