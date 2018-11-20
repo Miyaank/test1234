@@ -1059,6 +1059,12 @@ img {
 	background: #ea4c89;
 }
 
+
+.selected{
+color: 	#49b5e7;
+
+}
+
 .form{
 	margin:0 66px 0 30px;
 }
