@@ -94,17 +94,15 @@ function topFunction() {
           <li><a href="Contact.html">Contact Us</a></li>
           <li><a href="Courses.html" >Courses</a></li>
           <li><a href="#" class="selected">Corporate Training</a></li>
-          <li><a href="#Portfolio">Achievements</a></li>
-          <li><a href="#client_outer">Placements</a></li>
+          <li><a href="placements.html">Placements</a></li>
           <li><a href="Blogs.html">Blogs</a></li>
         </ul>
         <ul class="">
           <li><a href="../index.html">Home</a></li>
           <li><a href="Contact.html">Contact Us</a></li>
-          <li><a href="Courses.html" class="selected">Courses</a></li>
+          <li><a href="Courses.html">Courses</a></li>
           <li><a href="#" class="selected">Corporate Training</a></li>
-          <li><a href="#Portfolio">Achievements</a></li>
-          <li><a href="#client_outer">Placements</a></li>
+          <li><a href="placements.html">Placements</a></li>
           <li><a href="Blogs.html">Blogs</a></li>
         </ul>
       </nav>
@@ -121,14 +119,31 @@ function topFunction() {
     <div class="service_area">
       <div class="row">
 
-        <div class="col-lg-4 course-block"  data-toggle="modal" data-target="#manual">
-          <div class="service_block">
-            <div class=" delay-03s animated wow  zoomIn" style=" margin:30px auto 0 auto;"> <img style="max-height:70px; max-width:100px;" src="../img/Manual.png"/> </div>
-            <h3 class="animated fadeInUp wow">Manual Testing </h3>
-            <p class="animated fadeInDown wow">With this course, the candidate will go throw learning appropriate testing processes and methodologies as per the Industrial needs. The preliminary aim of this course is to enhance and deliver an effective skill set to the candidate with the practical approach.</p>
-          </div>
+        <div class="col-lg-6 course-block card-hover"  data-toggle="modal" data-target="#manual">
+          
+             
+              
+            <div class="service_block">
+            <div class=" delay-03s animated wow  zoomIn" style=" margin:140px auto 0 auto;"></div>
+            <h1 class="animated fadeInUp wow">ISTQB Certification <br/> Program </h3>
+                <div class="card-overlay"style="padding:80px">         
+                        <h2> <a onclick="window.location = 'Courses.html'">Foundation Level</a></h2>
+                  <h2><a onclick="window.location = 'Courses.html'">Test Analyst Level</a></h2>
+                </div>
+  
+              </div>
+ 
         </div>
-       
+        <div class="col-lg-6 course-block card-hover"  data-toggle="modal" data-target="#manual">
+            <div class="service_block">
+              <div class=" delay-03s animated wow  zoomIn" style=" margin:140px auto 0 auto;"> </div>
+              <h1 class="animated fadeInUp wow">Automation Skill <br/> Development Program</h3>
+                  <div class="card-overlay"style="padding:80px">         
+                        <h2> <a onclick="window.location = 'Courses.html'">Selenium Automation Program</a></h2>
+                  <h2><a onclick="window.location = 'Courses.html'">Jmeter Program</a></h2>
+                </div>
+            </div>
+          </div>
 
     </div>
     </div>
@@ -241,7 +256,6 @@ UG - 46, Bansi Trade centre M.G road <br>
     </div>
   </div>
 </footer>
-
 <script type="text/javascript">
     $(document).ready(function(e) {
         $('#header_outer').scrollToFixed();
@@ -277,12 +291,12 @@ UG - 46, Bansi Trade centre M.G road <br>
             $('html, body').stop().animate({
                 scrollTop: $($anchor.attr('href')).offset().top - 91
             }, 1500, 'easeInOutExpo');
-          /*
-           if you don't want to use the easing effects:
-           $('html, body').stop().animate({
-           scrollTop: $($anchor.attr('href')).offset().top
-           }, 1000);
-           */
+					/*
+					 if you don't want to use the easing effects:
+					 $('html, body').stop().animate({
+					 scrollTop: $($anchor.attr('href')).offset().top
+					 }, 1000);
+					 */
             event.preventDefault();
         });
     })
@@ -365,7 +379,6 @@ UG - 46, Bansi Trade centre M.G road <br>
         return false;
     });
 </script>
-<script src="contactform/contactform.js"></script>
 
 </body>
 </html>
