@@ -236,7 +236,7 @@ background: #f7f7f7;}
 	
 .top_left_cont h3{
 	font-size:16px;
-	color:#f56eab;
+	color:#49b5e7;
 	margin:0 0 20px 0;
 	text-align:left;
 	font-family:'Lato';
@@ -472,7 +472,7 @@ transition: 1s ease;
 	}
 	
 a.contact_btn{
-	background:#f56eab;
+	background:#49b5e7;
 	text-transform:uppercase;
 	display:block;
 	width:176px;
