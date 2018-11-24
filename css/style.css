@@ -527,6 +527,15 @@ a.contact_btn:hover{
 }
 
 
+.service_block.no_hover:hover{
+
+	transform: scale(1,1)!important;
+	
+	cursor: auto!important;
+	
+}
+
+
 /* Portfolio
 ---------------------------------*/
 
