@@ -338,6 +338,11 @@ a.learn_more2:hover{
 .service_icon.icon2 span {
     background:#7cc576;
 }
+meter {
+	height: 20px;
+    width: 90%;
+    margin: 15px 0;
+}
 .service_icon.icon3 span{
     background:#49b5e7;
 	}
@@ -355,7 +360,7 @@ opacity: 0;
 height: 100%;
 width: 100%;
 display: block;
-z-index: 2000;
+z-index: 100;
 position: absolute;
 top:0%;
 left: 0%;
